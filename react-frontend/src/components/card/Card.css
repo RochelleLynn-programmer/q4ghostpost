@@ -1,0 +1,12 @@
+.card__card {
+  border: solid darkgray 1px;
+  box-shadow: 5px 4px 15px -4px #848484;
+  width: 40%;
+  margin-bottom: 35px;
+  background-color: white;
+  padding: 25px;
+}
+
+button {
+  margin: 10px;
+}

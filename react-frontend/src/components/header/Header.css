@@ -1,0 +1,15 @@
+.header_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.links {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}

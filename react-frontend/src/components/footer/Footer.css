@@ -1,0 +1,9 @@
+.footer_div {
+  background-color: grey;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: darkgray;
+}

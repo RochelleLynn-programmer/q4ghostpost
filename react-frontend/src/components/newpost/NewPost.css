@@ -1,0 +1,26 @@
+.form_contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.form_form {
+  display: flex;
+  flex-direction: column;
+  border: solid darkgray 1px;
+  box-shadow: 5px 4px 15px -4px #848484;
+  width: 40%;
+
+  margin-bottom: 35px;
+  background-color: white;
+  padding: 25px;
+  align-content: space-between;
+}
+
+.button {
+  width: 20%;
+  align-self: center;
+  margin: 10px;
+}
