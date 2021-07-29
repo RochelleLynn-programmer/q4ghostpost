@@ -8,3 +8,5 @@ class Command(BaseCommand):
 
     with open('./djangobackend/.env', 'w') as f:
       f.write(f"SECRET_KEY='{new_secret_key}'")
+    with open('../.gitignore', 'a') as f:
+      f.write('.env')
