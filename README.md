@@ -28,7 +28,7 @@ Run "poetry install" to install dependencies.
 
 Run "poetry shell" to activate the virtual environment
 
-Run "python manage.py generate" to generate a secret key and store it in a .env file
+Run "python manage.py generate" to generate a secret key and overwrite the dummy string in the .env file. This command also will unstage the .env from git, ensure that the gitignore file is added to the stage, and migrate the data. After that is done, fake data is generated with a bulk create command for demonstration of the app
 
 Then "python manage.py runserver" to spin up the back end server
 ***
