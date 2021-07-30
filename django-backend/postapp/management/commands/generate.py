@@ -14,7 +14,8 @@ class Command(BaseCommand):
 
     subprocess.run(['git', 'rm', '-r', '--cached', 'djangobackend/.env'])
     subprocess.run(['python', 'manage.py', 'migrate'])
-
+    subprocess.run(['git', 'add', '../.gitignore'])
+    
     GhostPost.objects.bulk_create([
       GhostPost(boast=True, content="Integer semper eros sed malesuada finibus. Curabitur ac dolor at tellus rhoncus feugiat. Sed sed.", upvotes=10, downvotes=5),
       GhostPost(boast=True, content="Vivamus at ante eget lorem tempor porta in eu nibh. Ut ullamcorper, eros ac ultrices.", upvotes=15, downvotes=7),

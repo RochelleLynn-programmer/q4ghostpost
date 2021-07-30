@@ -30,8 +30,6 @@ Run "poetry shell" to activate the virtual environment
 
 Run "python manage.py generate" to generate a secret key and store it in a .env file
 
-Run "python manage.py migrate" to migrate data
-
 Then "python manage.py runserver" to spin up the back end server
 ***
 
